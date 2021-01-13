@@ -123,16 +123,16 @@ body.active #Banner  {
   opacity: 0;
 }
 #Banner .blacksection::before {
-  width: 2000px;
-  height: 0;
-  background-color: #000;
-  position: absolute;
-  right: -1000px;
-  transform: rotate(124deg);
-  -ms-transform: rotate(124deg);
-  -webkit-transform:rotate(124deg);
-  content: "";
-  top: 0;
+	width: 2000px;
+	height: 0;
+	background-color: #064d59;
+	position: absolute;
+	right: -1000px;
+	transform: rotate(124deg);
+	-ms-transform: rotate(124deg);
+	-webkit-transform: rotate(124deg);
+	content: "";
+	top: 0;
 }
 .mscroll {
 	opacity: 0;
@@ -140,6 +140,8 @@ body.active #Banner  {
 	text-align: center;
 	display: inline-block;
 }
+
+
 body.active .mscroll {
 	opacity: 1;
 	bottom: 14%;
